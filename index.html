@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="css/bootstrap.css"> -->
+
+    <!-- CSS Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>ElectroStore</title>
+</head>
+
+<body>
+
+    <!--nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand text-primary" href="#">ElectroStore</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Products<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        Categories
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Smartphones</a>
+                        <a class="dropdown-item" href="#">Laptops</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Accessories</a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <br><br><br>
+    <!--aside-->
+    <div class="container m-6">
+        <div class="row">
+            <div class="col-lg-8 mt-5 ">
+                <div class="jumbotron bg-light">
+                    <h1 class="display-4 text-primary">Welcome to ElectroStore</h1>
+                    <p class="lead">Your one-stop shop for the latest electronics and gadgets.</p>
+                    <hr class="my-4">
+                    <p>Browse through our wide range of products to find what you need.</p>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search products" aria-label="Search">
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-5">
+
+                <div class="list-group">
+                    <a href="#x" class="list-group-item list-group-item-action bg-primary text-light" aria-current="true"
+                        data-toggle="collapse">
+                        Product Categories
+                    </a>
+                    <div id="x" class="collapse show">
+                        <a href="#" class="list-group-item list-group-item-action">Smartphones</a>
+                        <a href="#" class="list-group-item list-group-item-action">Laptops</a>
+                        <a href="#" class="list-group-item list-group-item-action">Tablets</a>
+                        <a class="list-group-item list-group-item-action disabled">Wearables</a>
+                        <a class="list-group-item list-group-item-action disabled">Accessories</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+   <!--cards-->
+<div class="container">
+    <div class="text-center m-5">
+        <h3>Featured Products</h3>
+        <p>Explore our latest releases.</p>
+    </div>
+    <div class="row" >
+        <div class="col-lg-4 col-md-6 col-12 p-1">
+            <div class="card">
+                <img src="images/tablet_pro.avif"  class="card-img-top w-100 "   style="height: 200px"  alt="Tablet Pro">
+                <div class="card-body">
+                    <h5 class="card-title">Tablet Pro</h5>
+                    <p class="card-text">The Tablet Pro offers an exceptional user experience with its Retina display and multitasking capabilities.</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-12 p-1">
+            <div class="card">
+                <img src="images/smartphone_galaxy_z.jpg" class="card-img-top w-100 "   style="height: 200px"  alt="Smartphone Galaxy Z">
+                <div class="card-body">
+                    <h5 class="card-title">Smartphone Galaxy Z</h5>
+                    <p class="card-text">Discover the new Galaxy Z with a foldable screen, revolutionary camera, and long-lasting battery.</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 p-1">
+            <div class="card">
+                <img src="images/smartwatch_s2.jpg" class="card-img-top w-100 "   style="height: 200px"  alt="Smartwatch S2">
+                <div class="card-body h-50">
+                    <h5 class="card-title">Smartwatch S2</h5>
+                    <p class="card-text">Stay connected with the Smartwatch S2, featuring health tracking and instant notifications.</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 p-1">
+            <div class="card">
+                <img src="images/headphones_xreme.jpg"  class="card-img-top w-100 "   style="height: 200px"  alt="Headphones Xtreme">
+                <div class="card-body h-50">
+                    <h5 class="card-title">Headphones Xtreme</h5>
+                    <p class="card-text">Dive into immersive sound with the Headphones Xtreme, designed for discerning audiophiles.</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 p-1">
+            <div class="card">
+                <img src="images/laptop_ultrathin.png"  class="card-img-top w-100 "   style="height: 200px"  alt="Laptop UltraThin">
+                <div class="card-body h-50">
+                    <h5 class="card-title">Laptop UltraThin</h5>
+                    <p class="card-text">The Laptop UltraThin combines performance and portability, ideal for professionals on the go.</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 p-1">
+            <div class="card">
+                <img src="images/gaming_console_5.webp"  class="card-img-top w-100 "  style="height: 200px" alt="Gaming Console 5">
+                <div class="card-body h-50">
+                    <h5 class="card-title">Gaming Console 5</h5>
+                    <p class="card-text">Experience ultimate gaming with the Gaming Console 5, featuring next-gen graphics and smooth gameplay.</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--slide-->
+
+    <div class="container ">
+        <div class="text-center m-5">
+            <h3>Latest Arrivals</h3>
+            <p>Check out the newest products in our store.</p>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide container w-80" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/iphone_15_pro_max.jpg" style="border-radius: 10px;" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/laptop pr.avif"  style="border-radius: 10px;"  class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/smart_watch_last.webp"  style="border-radius: 10px;"   class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" data-slide="prev">
+              <span class="carousel-control-prev-icon  bg-primary"></span>
+            </a>
+            <a class="carousel-control-next"   href="#carouselExampleIndicators" data-slide="next">
+              <span class="carousel-control-next-icon bg-primary" ></span>
+            </a>
+          </div>
+    </div>
+    <!-- contact us-->
+    <div class="container ">
+      <div class="text-center m-5">
+        <h3>Contact Us</h3>
+        <p>We'd love to hear from you.</p>
+      </div>
+
+        <div class="card mb-3 ">
+            <div class="row no-gutters">
+              
+              <div class="col-4">
+                <div class="card-body">
+                  <h5 class="card-title">Get in Touch</h5>
+                  <p class="card-text">Have questions? Our team is here to help. Fill out the form below to reach us.</p>
+
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label>Leave your message</label>
+                      <textarea class="form-control"></textarea>                 
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Subscribe to newsletter</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                  </form>
+                </div>
+
+                
+              </div>
+
+              <div class="col-8">
+                <img src="images/contact_us.jpg" style="height:100%;width:100%;"   alt="...">
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!--footer-->
+    <footer class="bg-body-tertiary text-center text-lg-start bg-dark text-light" style="border-top: 10px solid #007bff; ">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-primary">About Us</h5>
+      
+              <p>
+                ElectroStore is your trusted source for the latest and greatest in electronics. From smartphones to laptops, we have it all.
+              </p>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-primary">Customer Service</h5>
+      
+              <p>
+                Our customer service team is available 24/7 to assist you with any queries or concerns. Your satisfaction is our priority.
+              </p>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2024 Copyright:
+          <a class=" text-primary" href="https://electrostore.com/" >electrostore.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    <!-- JavaScript et dépendances de Bootstrap (jQuery et Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+    <!--
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    
+    -->
+</body>
+
+</html>
